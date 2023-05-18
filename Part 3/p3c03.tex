@@ -58,7 +58,7 @@ The homotopy extension theorem is a special case when $B=Y$.
 Work at the level of functions. Suppose $f$ is represented by a function $f':X'\lar{}Y$, and $h$ by a function $h':\te{Cyl}(A')\lar{}Y$, where $X'\supset A'$, $X'$ is cofinal in $X$ and $A'$ is cofinal in $A$. We make our induction using Zorn's Lemma. The objects to be ordered are pairs $(U,k')$ where $A'\subset U\subset X'$ and $k':\te{Cyl}(U)\lar{} Y$ is a function which deforms $f'|_U$ to a function into $B$. 
 The set of such pairs is non-empty since $(A',h')$ qualifies; and it is clearly inductive. So we can choose a
 maximal element $(U,k')$. I claim the maximal element has $U$ cofinal
-in $X'$. If not, then by lemma \ref{lem:p3ch03.1} we can find $U\subset V\subset X'$ where $V$ contains just one more stable cell than $U$, say $V_n=U_n\cup e^m$. Then the maps \[f'_n|_{0\wedge e}: 0\wedge e\lar{} Y_{n-r} \]
+in $X'$. If not, then by Lemma \ref{lem:p3ch03.1} we can find $U\subset V\subset X'$ where $V$ contains just one more stable cell than $U$, say $V_n=U_n\cup e^m$. Then the maps \[f'_n|_{0\wedge e}: 0\wedge e\lar{} Y_{n-r} \]
 \[k_n'|_{I^+ \wedge \partial e}: I^+ \wedge \partial e, 1\wedge \partial e\lar{} Y_{n-r},B_{n-r} \]
 define an element of $\pi_m(Y_{n-r},B_{n-r})$. Now $\pi_\ast(Y,B)=0$, so that this element vanishes after sufficiently many suspensions. So on passing to $V_{n+p}= U_{n+p}\cup e^{m+p}$, we can extend $k'_{n+p}$ to a map \[k''_{n+p}: I^+\wedge e, 1\wedge e \lar{} Y_{p+n-r},B_{p+n-r}. \]
 Then define $k''_{n+q}$ for $q>p$ by suspension. This extension of $k'$ shows that $(U,k')$ is not maximal, a contradiction. This contradiction shows that $U$ is cofinal in $X'$, i.e., $U$ is cofinal in $X$. This gives the required map of $\te{Cyl}(X)$.
@@ -90,8 +90,8 @@ for all CW-spectra X would be called a weak equivalence.
 (First argument). Without loss of generality we
 can suppose that $f$ is an inclusion; for if not, replace $F$ by the
 spectrum $M$ in which $M_n$ is the mapping cylinder of $f_n$, Then
-$\pi_\ast(F,E) = 0$ by the exact sequence. Now we see that $f_\ast$ is an epimorphism by applying lemma \ref{lem:p3ch03.2}, taking the pair $X$ mod $A$ to be $X$ mod $\te{pt.}$
-Similarly, we see that $f_\ast$ is a monomorphism by applying lemma \ref{lem:p3ch03.2}, taking the pair $X$ mod $A$ to be $\te{Cyl}(X)$ mod its ends.
+$\pi_\ast(F,E) = 0$ by the exact sequence. Now we see that $f_\ast$ is an epimorphism by applying Lemma \ref{lem:p3ch03.2}, taking the pair $X$ mod $A$ to be $X$ mod $\te{pt.}$
+Similarly, we see that $f_\ast$ is a monomorphism by applying Lemma \ref{lem:p3ch03.2}, taking the pair $X$ mod $A$ to be $\te{Cyl}(X)$ mod its ends.
 
 (Second argument). Instead of using the mapping cylinder spectrum,
 use Lemma \ref{lem:p3ch03.2'} in the above argument. 
@@ -109,7 +109,7 @@ homotopy equivalence for each $n$. Then $f$ is an equivalence in our
 category. 
 \end{examples}
 \begin{exercise}
-Use (\ref{cor:p3ch03.5}) to show that any CW-spectrum $Y$ is equivalent in our category to an $\Omega_0$-spectrum.
+Use Corollary \ref{cor:p3ch03.5} to show that any CW-spectrum $Y$ is equivalent in our category to an $\Omega_0$-spectrum.
 \end{exercise}
 \begin{hint}
 Construct a functor $T_n$ from CW-complexes to spectra by \[(T_nX)_r =\begin{cases}\Sigma^{r-n}X & r\geq n\\ \te{pt.} & r<n\end{cases}\]
